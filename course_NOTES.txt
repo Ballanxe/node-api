@@ -1,0 +1,18 @@
+never call next inside a controller because it is the final middleware, exception to error handlers middleware 
+
+Dont put code after the response, unless it will be webhook.
+
+$ yarn build after any change
+
+Check mongodb service is working
+$ service mongodb status
+
+Check mongodb service in port 
+$ nc -zvv localhost 27017
+
+Clean npm cache
+$ npm cache clean --force
+
+
+
+
